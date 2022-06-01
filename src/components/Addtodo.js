@@ -13,7 +13,7 @@ function Addtodo(props) {
 
     return (
         <div className="container">
-            <p className='display-5 text-into'>Add new task</p>
+            <h1 className='display-5 text-into'>Add new task</h1>
             <form className='w-75 mx-auto' onSubmit={handleSubmit(onFormSubmit)}>
                 <div className='mb-3'>
                     <label htmlFor="todo" >New todo</label>
